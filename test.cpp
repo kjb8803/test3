@@ -3,7 +3,7 @@
 
 int main()
 {
-  printf("print ok\n");
+  printf("print ok 1\n");
   system("pause");
   
   return 0;
