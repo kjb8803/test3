@@ -5,6 +5,6 @@ SET(CMAKE_CXX_COMPILER C:/MinGW/msys/mingw/bin/g++.exe)
 
 project (Test)
 
-SET(CMAKE_CXX_CPPCHECK "cppcheck")
-
 ADD_EXECUTABLE (test2.out test.cpp)
+
+SET(CMAKE_CXX_CPPCHECK "C:/Program Files/Cppcheck/cppcheck.exe")
