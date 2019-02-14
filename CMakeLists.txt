@@ -8,5 +8,5 @@ project (Test)
 ADD_EXECUTABLE (test2.out test.cpp)
 
 SET(CMAKE_CXX_CPPCHECK "C:/Program Files/Cppcheck/cppcheck.exe")
-
-add_RunCMake_test(Cppcheck -DPSEUDO_CPPCHECK=$<TARGET_FILE:test2.out>)
+CXX_CPPCHECK(test2.out)
+#add_RunCMake_test(Cppcheck -DPSEUDO_CPPCHECK=$<TARGET_FILE:test2.out>)
