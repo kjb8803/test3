@@ -3,6 +3,7 @@
 
 int main()
 {
+  char *p = new char[8];
   printf("print ok 1\n");
   system("pause");
   
